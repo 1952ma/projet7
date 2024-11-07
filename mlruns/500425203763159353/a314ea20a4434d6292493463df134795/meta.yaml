@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/500425203763159353/a314ea20a4434d6292493463df134795/artifacts
+end_time: 1730976120845
+entry_point_name: ''
+experiment_id: '500425203763159353'
+lifecycle_stage: active
+run_id: a314ea20a4434d6292493463df134795
+run_name: nosy-yak-589
+run_uuid: a314ea20a4434d6292493463df134795
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730976115472
+status: 3
+tags: []
+user_id: HP

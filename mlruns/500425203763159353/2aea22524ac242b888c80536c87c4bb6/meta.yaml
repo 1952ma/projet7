@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/500425203763159353/2aea22524ac242b888c80536c87c4bb6/artifacts
+end_time: 1730976645479
+entry_point_name: ''
+experiment_id: '500425203763159353'
+lifecycle_stage: active
+run_id: 2aea22524ac242b888c80536c87c4bb6
+run_name: awesome-snake-801
+run_uuid: 2aea22524ac242b888c80536c87c4bb6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730976640163
+status: 3
+tags: []
+user_id: HP

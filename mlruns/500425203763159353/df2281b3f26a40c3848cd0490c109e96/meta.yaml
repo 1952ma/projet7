@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/500425203763159353/df2281b3f26a40c3848cd0490c109e96/artifacts
+end_time: 1730977016337
+entry_point_name: ''
+experiment_id: '500425203763159353'
+lifecycle_stage: active
+run_id: df2281b3f26a40c3848cd0490c109e96
+run_name: smiling-yak-96
+run_uuid: df2281b3f26a40c3848cd0490c109e96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730977010896
+status: 3
+tags: []
+user_id: HP
