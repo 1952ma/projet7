@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/543546592663464926/e98a17056ad1463ea5fddfcda6549ef0/artifacts
+end_time: 1731014219999
+entry_point_name: ''
+experiment_id: '543546592663464926'
+lifecycle_stage: active
+run_id: e98a17056ad1463ea5fddfcda6549ef0
+run_name: efficient-cub-445
+run_uuid: e98a17056ad1463ea5fddfcda6549ef0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731014213787
+status: 3
+tags: []
+user_id: HP

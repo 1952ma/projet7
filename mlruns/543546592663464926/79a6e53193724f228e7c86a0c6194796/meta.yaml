@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/543546592663464926/79a6e53193724f228e7c86a0c6194796/artifacts
+end_time: 1731013975342
+entry_point_name: ''
+experiment_id: '543546592663464926'
+lifecycle_stage: active
+run_id: 79a6e53193724f228e7c86a0c6194796
+run_name: masked-lark-132
+run_uuid: 79a6e53193724f228e7c86a0c6194796
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731013968868
+status: 3
+tags: []
+user_id: HP

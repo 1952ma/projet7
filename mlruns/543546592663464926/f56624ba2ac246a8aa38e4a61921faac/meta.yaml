@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/543546592663464926/f56624ba2ac246a8aa38e4a61921faac/artifacts
+end_time: 1731013861214
+entry_point_name: ''
+experiment_id: '543546592663464926'
+lifecycle_stage: active
+run_id: f56624ba2ac246a8aa38e4a61921faac
+run_name: auspicious-toad-541
+run_uuid: f56624ba2ac246a8aa38e4a61921faac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731013855072
+status: 3
+tags: []
+user_id: HP
