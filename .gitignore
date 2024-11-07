@@ -1,0 +1,10 @@
+#ignorer le répertoire virtuel
+venv/
+
+#ignorer les fichiers:
+
+y_final.csv
+X_final.csv
+y_train_eval.csv
+X_train_eval.csv
+df_clean_imputed.csv
