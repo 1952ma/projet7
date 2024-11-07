@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/686872828771345104/804ce060641e4316a71fdd8e76a32c63/artifacts
+end_time: 1731005609106
+entry_point_name: ''
+experiment_id: '686872828771345104'
+lifecycle_stage: active
+run_id: 804ce060641e4316a71fdd8e76a32c63
+run_name: colorful-shrike-405
+run_uuid: 804ce060641e4316a71fdd8e76a32c63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731005603367
+status: 3
+tags: []
+user_id: HP

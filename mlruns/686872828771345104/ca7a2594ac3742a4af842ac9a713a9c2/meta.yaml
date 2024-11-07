@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/686872828771345104/ca7a2594ac3742a4af842ac9a713a9c2/artifacts
+end_time: 1731004334492
+entry_point_name: ''
+experiment_id: '686872828771345104'
+lifecycle_stage: active
+run_id: ca7a2594ac3742a4af842ac9a713a9c2
+run_name: fearless-swan-256
+run_uuid: ca7a2594ac3742a4af842ac9a713a9c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731004319807
+status: 3
+tags: []
+user_id: HP

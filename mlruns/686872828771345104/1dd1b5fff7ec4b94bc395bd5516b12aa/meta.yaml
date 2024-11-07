@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/686872828771345104/1dd1b5fff7ec4b94bc395bd5516b12aa/artifacts
+end_time: 1731006320901
+entry_point_name: ''
+experiment_id: '686872828771345104'
+lifecycle_stage: active
+run_id: 1dd1b5fff7ec4b94bc395bd5516b12aa
+run_name: rogue-crane-863
+run_uuid: 1dd1b5fff7ec4b94bc395bd5516b12aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731006313929
+status: 3
+tags: []
+user_id: HP
