@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/500425203763159353/2e818becf4664b8eaf131a64fc8e428a/artifacts
+end_time: 1730975617465
+entry_point_name: ''
+experiment_id: '500425203763159353'
+lifecycle_stage: active
+run_id: 2e818becf4664b8eaf131a64fc8e428a
+run_name: lyrical-sheep-886
+run_uuid: 2e818becf4664b8eaf131a64fc8e428a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730975600501
+status: 3
+tags: []
+user_id: HP

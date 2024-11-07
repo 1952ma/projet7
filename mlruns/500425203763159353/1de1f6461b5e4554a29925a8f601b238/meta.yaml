@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/500425203763159353/1de1f6461b5e4554a29925a8f601b238/artifacts
+end_time: 1730976417505
+entry_point_name: ''
+experiment_id: '500425203763159353'
+lifecycle_stage: active
+run_id: 1de1f6461b5e4554a29925a8f601b238
+run_name: puzzled-snail-155
+run_uuid: 1de1f6461b5e4554a29925a8f601b238
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730976412061
+status: 3
+tags: []
+user_id: HP

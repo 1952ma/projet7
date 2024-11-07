@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/500425203763159353/4348ef185b48409babedd4a97e03d041/artifacts
+end_time: 1730976005769
+entry_point_name: ''
+experiment_id: '500425203763159353'
+lifecycle_stage: active
+run_id: 4348ef185b48409babedd4a97e03d041
+run_name: unleashed-swan-889
+run_uuid: 4348ef185b48409babedd4a97e03d041
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730976000054
+status: 3
+tags: []
+user_id: HP

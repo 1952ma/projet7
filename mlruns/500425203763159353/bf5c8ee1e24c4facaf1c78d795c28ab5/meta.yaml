@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/500425203763159353/bf5c8ee1e24c4facaf1c78d795c28ab5/artifacts
+end_time: 1730977607448
+entry_point_name: ''
+experiment_id: '500425203763159353'
+lifecycle_stage: active
+run_id: bf5c8ee1e24c4facaf1c78d795c28ab5
+run_name: serious-steed-715
+run_uuid: bf5c8ee1e24c4facaf1c78d795c28ab5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730977607386
+status: 3
+tags: []
+user_id: HP
