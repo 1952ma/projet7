@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/686872828771345104/4d7f78ba44664ae1bd0d509bc92694dd/artifacts
+end_time: 1731006405088
+entry_point_name: ''
+experiment_id: '686872828771345104'
+lifecycle_stage: active
+run_id: 4d7f78ba44664ae1bd0d509bc92694dd
+run_name: charming-sponge-73
+run_uuid: 4d7f78ba44664ae1bd0d509bc92694dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731006405002
+status: 3
+tags: []
+user_id: HP

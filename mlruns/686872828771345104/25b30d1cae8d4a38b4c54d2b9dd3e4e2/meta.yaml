@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/686872828771345104/25b30d1cae8d4a38b4c54d2b9dd3e4e2/artifacts
+end_time: 1731007192383
+entry_point_name: ''
+experiment_id: '686872828771345104'
+lifecycle_stage: active
+run_id: 25b30d1cae8d4a38b4c54d2b9dd3e4e2
+run_name: crawling-robin-52
+run_uuid: 25b30d1cae8d4a38b4c54d2b9dd3e4e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731007192201
+status: 3
+tags: []
+user_id: HP

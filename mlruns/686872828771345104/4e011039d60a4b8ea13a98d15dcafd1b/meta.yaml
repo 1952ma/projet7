@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/686872828771345104/4e011039d60a4b8ea13a98d15dcafd1b/artifacts
+end_time: 1731005106765
+entry_point_name: ''
+experiment_id: '686872828771345104'
+lifecycle_stage: active
+run_id: 4e011039d60a4b8ea13a98d15dcafd1b
+run_name: dapper-pig-902
+run_uuid: 4e011039d60a4b8ea13a98d15dcafd1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731005100289
+status: 3
+tags: []
+user_id: HP
