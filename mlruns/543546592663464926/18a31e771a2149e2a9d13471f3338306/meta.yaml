@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/543546592663464926/18a31e771a2149e2a9d13471f3338306/artifacts
+end_time: 1731014156757
+entry_point_name: ''
+experiment_id: '543546592663464926'
+lifecycle_stage: active
+run_id: 18a31e771a2149e2a9d13471f3338306
+run_name: clean-lynx-355
+run_uuid: 18a31e771a2149e2a9d13471f3338306
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731014150586
+status: 3
+tags: []
+user_id: HP

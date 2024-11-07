@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/543546592663464926/82133c78e1214fbd817cfb3bc6ded9be/artifacts
+end_time: 1731014326373
+entry_point_name: ''
+experiment_id: '543546592663464926'
+lifecycle_stage: active
+run_id: 82133c78e1214fbd817cfb3bc6ded9be
+run_name: fun-sloth-873
+run_uuid: 82133c78e1214fbd817cfb3bc6ded9be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731014320032
+status: 3
+tags: []
+user_id: HP
