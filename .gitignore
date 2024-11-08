@@ -14,7 +14,7 @@ results_random_forest.csv
 
 
 best_params_dc.pkl
-df_test.csv
+
 dummy_classifier_model_f.joblib
 
 
