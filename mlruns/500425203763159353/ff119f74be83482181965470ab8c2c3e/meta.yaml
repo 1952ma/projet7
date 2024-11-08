@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/500425203763159353/ff119f74be83482181965470ab8c2c3e/artifacts
+end_time: 1731017368990
+entry_point_name: ''
+experiment_id: '500425203763159353'
+lifecycle_stage: active
+run_id: ff119f74be83482181965470ab8c2c3e
+run_name: bemused-pig-764
+run_uuid: ff119f74be83482181965470ab8c2c3e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731017363909
+status: 3
+tags: []
+user_id: HP

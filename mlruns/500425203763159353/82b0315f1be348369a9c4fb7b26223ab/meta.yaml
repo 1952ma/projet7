@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/500425203763159353/82b0315f1be348369a9c4fb7b26223ab/artifacts
+end_time: 1731017098711
+entry_point_name: ''
+experiment_id: '500425203763159353'
+lifecycle_stage: active
+run_id: 82b0315f1be348369a9c4fb7b26223ab
+run_name: omniscient-asp-864
+run_uuid: 82b0315f1be348369a9c4fb7b26223ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731017093577
+status: 3
+tags: []
+user_id: HP
