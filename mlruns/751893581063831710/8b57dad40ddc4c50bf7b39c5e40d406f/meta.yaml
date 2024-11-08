@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/751893581063831710/8b57dad40ddc4c50bf7b39c5e40d406f/artifacts
+end_time: 1731065802667
+entry_point_name: ''
+experiment_id: '751893581063831710'
+lifecycle_stage: active
+run_id: 8b57dad40ddc4c50bf7b39c5e40d406f
+run_name: brawny-cub-925
+run_uuid: 8b57dad40ddc4c50bf7b39c5e40d406f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731065802580
+status: 3
+tags: []
+user_id: HP
