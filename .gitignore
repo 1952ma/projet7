@@ -8,7 +8,7 @@ df_clean_imputed.csv
 
 df_train.csv
 random_forest_model_f.joblib
-mlruns/751893581063831710
+
 best_params_rf.pkl
 results_random_forest.csv
 

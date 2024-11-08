@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/751893581063831710/d3ce67b9e1d84e26aa307c7b55884e51/artifacts
+end_time: 1731065608355
+entry_point_name: ''
+experiment_id: '751893581063831710'
+lifecycle_stage: active
+run_id: d3ce67b9e1d84e26aa307c7b55884e51
+run_name: incongruous-bird-896
+run_uuid: d3ce67b9e1d84e26aa307c7b55884e51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731065608243
+status: 3
+tags: []
+user_id: HP
