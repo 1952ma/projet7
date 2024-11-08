@@ -1,9 +1,0 @@
-#ignorer le répertoire virtuel
-venv/
-
-#ignorer les fichiers:
-
-df_classification_binaire.csv
-df_clean_imputed.csv
-
-df_train.csv
