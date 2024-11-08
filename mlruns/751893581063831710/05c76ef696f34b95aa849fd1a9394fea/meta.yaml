@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/751893581063831710/05c76ef696f34b95aa849fd1a9394fea/artifacts
+end_time: 1731065801903
+entry_point_name: ''
+experiment_id: '751893581063831710'
+lifecycle_stage: active
+run_id: 05c76ef696f34b95aa849fd1a9394fea
+run_name: unruly-shrimp-829
+run_uuid: 05c76ef696f34b95aa849fd1a9394fea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731065801827
+status: 3
+tags: []
+user_id: HP
