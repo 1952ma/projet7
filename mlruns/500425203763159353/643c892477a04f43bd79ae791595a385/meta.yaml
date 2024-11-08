@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/500425203763159353/643c892477a04f43bd79ae791595a385/artifacts
+end_time: 1731017677830
+entry_point_name: ''
+experiment_id: '500425203763159353'
+lifecycle_stage: active
+run_id: 643c892477a04f43bd79ae791595a385
+run_name: salty-snake-776
+run_uuid: 643c892477a04f43bd79ae791595a385
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731017672530
+status: 3
+tags: []
+user_id: HP
