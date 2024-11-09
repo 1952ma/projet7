@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/892207454138522337/de83db39718444fca88a509c2df0c29a/artifacts
+end_time: 1731180645754
+entry_point_name: ''
+experiment_id: '892207454138522337'
+lifecycle_stage: active
+run_id: de83db39718444fca88a509c2df0c29a
+run_name: charming-fly-17
+run_uuid: de83db39718444fca88a509c2df0c29a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731180639576
+status: 3
+tags: []
+user_id: HP

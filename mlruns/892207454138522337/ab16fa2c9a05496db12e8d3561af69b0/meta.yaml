@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/892207454138522337/ab16fa2c9a05496db12e8d3561af69b0/artifacts
+end_time: 1731180547577
+entry_point_name: ''
+experiment_id: '892207454138522337'
+lifecycle_stage: active
+run_id: ab16fa2c9a05496db12e8d3561af69b0
+run_name: placid-owl-144
+run_uuid: ab16fa2c9a05496db12e8d3561af69b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731180534330
+status: 3
+tags: []
+user_id: HP

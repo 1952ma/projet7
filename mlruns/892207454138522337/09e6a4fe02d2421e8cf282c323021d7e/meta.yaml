@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/892207454138522337/09e6a4fe02d2421e8cf282c323021d7e/artifacts
+end_time: 1731180716043
+entry_point_name: ''
+experiment_id: '892207454138522337'
+lifecycle_stage: active
+run_id: 09e6a4fe02d2421e8cf282c323021d7e
+run_name: trusting-dog-767
+run_uuid: 09e6a4fe02d2421e8cf282c323021d7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731180708619
+status: 3
+tags: []
+user_id: HP

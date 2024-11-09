@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/892207454138522337/f378979fd15540d3b8b679ecbb743199/artifacts
+end_time: 1731180703222
+entry_point_name: ''
+experiment_id: '892207454138522337'
+lifecycle_stage: active
+run_id: f378979fd15540d3b8b679ecbb743199
+run_name: whimsical-hawk-275
+run_uuid: f378979fd15540d3b8b679ecbb743199
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731180696764
+status: 3
+tags: []
+user_id: HP
