@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/401320103732444206/5c694ea625d34b708f0304d66b7f2ccc/artifacts
+end_time: 1731156899479
+entry_point_name: ''
+experiment_id: '401320103732444206'
+lifecycle_stage: active
+run_id: 5c694ea625d34b708f0304d66b7f2ccc
+run_name: sassy-mule-461
+run_uuid: 5c694ea625d34b708f0304d66b7f2ccc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731156892450
+status: 3
+tags: []
+user_id: HP
