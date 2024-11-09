@@ -8,8 +8,8 @@ class TestModelTraining(unittest.TestCase):
         """Configuration avant chaque test."""
         # Définir les chemins du modèle et du scaler
         current_directory = os.path.dirname(os.path.realpath(__file__))
-        self.model_path = os.path.join(current_directory, "..", "folderDataScalerModel", "light_GBM_model_f.joblib")
-        self.scaler_path = os.path.join(current_directory, "..", "folderDataScalerModel", "scaler_final.joblib")
+        self.model_path = os.path.join(current_directory, "..", "api", "lightgbm_model_f.joblib")
+        self.scaler_path = os.path.join(current_directory, "..", "api", "scaler_lgbm.joblib")
     
     def test_model_exists(self):
         """Test si le modèle a bien été sauvegardé."""
@@ -26,7 +26,7 @@ class TestModelTraining(unittest.TestCase):
 
         # Charger les données du fichier CSV et retirer la colonne SK_ID_CURR
         current_directory = os.path.dirname(os.path.realpath(__file__))
-        X_sample = pd.read_csv(os.path.join(current_directory, "..", "folderDataScalerModel", "df_clients_sample.csv")).drop(columns=["SK_ID_CURR"])
+        X_sample = pd.read_csv(os.path.join(current_directory, "..", "api", "df_clients.csv")).drop(columns=["SK_ID_CURR"])
 
         # Appliquer la transformation du scaler
         X_scaled = scaler.transform(X_sample)
@@ -41,7 +41,7 @@ class TestModelTraining(unittest.TestCase):
 
         # Charger les données du fichier CSV, retirer la colonne SK_ID_CURR
         current_directory = os.path.dirname(os.path.realpath(__file__))
-        X_sample = pd.read_csv(os.path.join(current_directory, "..", "folderDataScalerModel", "df_clients_sample.csv")).drop(columns=["SK_ID_CURR"])
+        X_sample = pd.read_csv(os.path.join(current_directory, "..", "api", "df_clients.csv")).drop(columns=["SK_ID_CURR"])
 
         # Test simple de prédiction
         predictions = model.predict(X_sample)

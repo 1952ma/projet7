@@ -19,8 +19,8 @@ import os
 
 #charger le modèle et le scaler
 current_directory = os.path.dirname(os.path.realpath(__file__)) 
-model = joblib.load(os.path.join(current_directory, "..", "folderDataScalerModel", "lightGBM_model_f.joblib"))
-scaler = joblib.load(os.path.join(current_directory, "..", "folderDataScalerModel", "scaler_final.joblib"))
+model = joblib.load(os.path.join(current_directory, "lightgbm_model_f.joblib"))
+scaler = joblib.load(os.path.join(current_directory,  "scaler_lgbm.joblib"))
 
 
 #création de l'application FastAPI
@@ -31,7 +31,7 @@ class ClientData(BaseModel):
     SK_ID_CURR: int
 
 #chargement des données des nouveaux clients (CSV)
-new_clients_df = pd.read_csv(os.path.join(current_directory,"..", "folderDataScalerModel", 'df_clients_sample.csv'))
+new_clients_df = pd.read_csv(os.path.join(current_directory, 'df_clients.csv'))
 
 #la route (url: http://127.0.0.1:8000/clients) pour la liste des id clients: SK_ID_CURR
 @app.get("/clients")
