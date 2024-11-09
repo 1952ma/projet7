@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/577001142153692276/76f71920ccd44a90b8c40c2f4332bdff/artifacts
+end_time: 1731150306710
+entry_point_name: ''
+experiment_id: '577001142153692276'
+lifecycle_stage: active
+run_id: 76f71920ccd44a90b8c40c2f4332bdff
+run_name: persistent-frog-217
+run_uuid: 76f71920ccd44a90b8c40c2f4332bdff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731150300067
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/577001142153692276/e7060e63ae0e4f80bcd0bc3e85d3c2b9/artifacts
+end_time: 1731150498730
+entry_point_name: ''
+experiment_id: '577001142153692276'
+lifecycle_stage: active
+run_id: e7060e63ae0e4f80bcd0bc3e85d3c2b9
+run_name: debonair-slug-645
+run_uuid: e7060e63ae0e4f80bcd0bc3e85d3c2b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731150492084
+status: 3
+tags: []
+user_id: HP
