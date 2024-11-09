@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/401320103732444206/5dd6b7f38f6c4160944a1503a61315e5/artifacts
+end_time: 1731163430041
+entry_point_name: ''
+experiment_id: '401320103732444206'
+lifecycle_stage: active
+run_id: 5dd6b7f38f6c4160944a1503a61315e5
+run_name: calm-elk-553
+run_uuid: 5dd6b7f38f6c4160944a1503a61315e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731163429932
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/401320103732444206/3cd4491eb69941dcbc6930fd910003cd/artifacts
+end_time: 1731163298205
+entry_point_name: ''
+experiment_id: '401320103732444206'
+lifecycle_stage: active
+run_id: 3cd4491eb69941dcbc6930fd910003cd
+run_name: bright-croc-604
+run_uuid: 3cd4491eb69941dcbc6930fd910003cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731163298118
+status: 3
+tags: []
+user_id: HP
