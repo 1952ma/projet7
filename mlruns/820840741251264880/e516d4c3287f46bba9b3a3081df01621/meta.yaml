@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/820840741251264880/e516d4c3287f46bba9b3a3081df01621/artifacts
+end_time: 1731178586795
+entry_point_name: ''
+experiment_id: '820840741251264880'
+lifecycle_stage: active
+run_id: e516d4c3287f46bba9b3a3081df01621
+run_name: fortunate-cow-624
+run_uuid: e516d4c3287f46bba9b3a3081df01621
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731178580694
+status: 3
+tags: []
+user_id: HP

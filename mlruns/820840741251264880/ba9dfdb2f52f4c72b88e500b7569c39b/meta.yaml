@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/820840741251264880/ba9dfdb2f52f4c72b88e500b7569c39b/artifacts
+end_time: 1731178357153
+entry_point_name: ''
+experiment_id: '820840741251264880'
+lifecycle_stage: active
+run_id: ba9dfdb2f52f4c72b88e500b7569c39b
+run_name: enchanting-worm-397
+run_uuid: ba9dfdb2f52f4c72b88e500b7569c39b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731178351066
+status: 3
+tags: []
+user_id: HP

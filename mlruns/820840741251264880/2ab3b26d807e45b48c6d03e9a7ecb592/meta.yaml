@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/820840741251264880/2ab3b26d807e45b48c6d03e9a7ecb592/artifacts
+end_time: 1731178677280
+entry_point_name: ''
+experiment_id: '820840741251264880'
+lifecycle_stage: active
+run_id: 2ab3b26d807e45b48c6d03e9a7ecb592
+run_name: bedecked-shoat-131
+run_uuid: 2ab3b26d807e45b48c6d03e9a7ecb592
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731178671435
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/820840741251264880/bd5852c6fdd24816956de735d1372491/artifacts
+end_time: 1731179051581
+entry_point_name: ''
+experiment_id: '820840741251264880'
+lifecycle_stage: active
+run_id: bd5852c6fdd24816956de735d1372491
+run_name: polite-auk-426
+run_uuid: bd5852c6fdd24816956de735d1372491
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731179045415
+status: 3
+tags: []
+user_id: HP
