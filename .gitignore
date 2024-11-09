@@ -5,7 +5,11 @@ venv/
 
 df_classification_binaire.csv
 df_clean_imputed.csv
+
 df_train.csv
+df_train_i.csv
+df_test_i.csv
+df_test.csv
 
 
 
