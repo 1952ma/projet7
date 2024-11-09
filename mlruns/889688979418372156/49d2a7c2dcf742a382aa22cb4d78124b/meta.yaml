@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/889688979418372156/49d2a7c2dcf742a382aa22cb4d78124b/artifacts
+end_time: 1731170445338
+entry_point_name: ''
+experiment_id: '889688979418372156'
+lifecycle_stage: active
+run_id: 49d2a7c2dcf742a382aa22cb4d78124b
+run_name: polite-ape-983
+run_uuid: 49d2a7c2dcf742a382aa22cb4d78124b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731170438834
+status: 3
+tags: []
+user_id: HP

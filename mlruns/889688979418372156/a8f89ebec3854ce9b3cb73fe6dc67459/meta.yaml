@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/889688979418372156/a8f89ebec3854ce9b3cb73fe6dc67459/artifacts
+end_time: 1731169373100
+entry_point_name: ''
+experiment_id: '889688979418372156'
+lifecycle_stage: active
+run_id: a8f89ebec3854ce9b3cb73fe6dc67459
+run_name: shivering-bird-104
+run_uuid: a8f89ebec3854ce9b3cb73fe6dc67459
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731169366888
+status: 3
+tags: []
+user_id: HP

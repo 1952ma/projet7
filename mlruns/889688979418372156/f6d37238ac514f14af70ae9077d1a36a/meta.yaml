@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/889688979418372156/f6d37238ac514f14af70ae9077d1a36a/artifacts
+end_time: 1731171403817
+entry_point_name: ''
+experiment_id: '889688979418372156'
+lifecycle_stage: active
+run_id: f6d37238ac514f14af70ae9077d1a36a
+run_name: bold-crane-736
+run_uuid: f6d37238ac514f14af70ae9077d1a36a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731171395240
+status: 3
+tags: []
+user_id: HP

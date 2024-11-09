@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/889688979418372156/1dbf9b62e08642cfaf009bc9f7c1b728/artifacts
+end_time: 1731169828870
+entry_point_name: ''
+experiment_id: '889688979418372156'
+lifecycle_stage: active
+run_id: 1dbf9b62e08642cfaf009bc9f7c1b728
+run_name: merciful-kit-228
+run_uuid: 1dbf9b62e08642cfaf009bc9f7c1b728
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731169821692
+status: 3
+tags: []
+user_id: HP
