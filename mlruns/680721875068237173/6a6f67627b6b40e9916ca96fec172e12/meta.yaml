@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/680721875068237173/6a6f67627b6b40e9916ca96fec172e12/artifacts
+end_time: 1731143974029
+entry_point_name: ''
+experiment_id: '680721875068237173'
+lifecycle_stage: active
+run_id: 6a6f67627b6b40e9916ca96fec172e12
+run_name: receptive-eel-808
+run_uuid: 6a6f67627b6b40e9916ca96fec172e12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731143968697
+status: 3
+tags: []
+user_id: HP

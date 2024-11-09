@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/680721875068237173/e3b4fac7a6e24199904e9f3581346929/artifacts
+end_time: 1731143587828
+entry_point_name: ''
+experiment_id: '680721875068237173'
+lifecycle_stage: active
+run_id: e3b4fac7a6e24199904e9f3581346929
+run_name: unleashed-ray-507
+run_uuid: e3b4fac7a6e24199904e9f3581346929
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731143581923
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/680721875068237173/392ad80a00654efb89eee65bcf9ce283/artifacts
+end_time: 1731143551269
+entry_point_name: ''
+experiment_id: '680721875068237173'
+lifecycle_stage: active
+run_id: 392ad80a00654efb89eee65bcf9ce283
+run_name: sedate-eel-112
+run_uuid: 392ad80a00654efb89eee65bcf9ce283
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731143544671
+status: 3
+tags: []
+user_id: HP
