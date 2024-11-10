@@ -11,6 +11,7 @@
 #2 -puis  http://127.0.0.1:8000/clients
 
 from fastapi import FastAPI
+from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
 import pandas as pd
 import joblib
@@ -33,6 +34,12 @@ class ClientData(BaseModel):
 #chargement des données des nouveaux clients (CSV)
 new_clients_df = pd.read_csv(os.path.join(current_directory, 'df_clients.csv'))
 
+
+# Route de redirection de '/' vers '/clients'
+@app.get("/")
+def read_root():
+    return RedirectResponse(url="/clients")
+
 #la route (url: http://127.0.0.1:8000/clients) pour la liste des id clients: SK_ID_CURR
 @app.get("/clients")
 def get_clients():
@@ -44,26 +51,29 @@ def get_clients():
 @app.post("/predict")
 def predict(client_data: ClientData):
     """Faire une prédiction pour un client spécifique"""
-    #je récupère le SK_ID_CURR
-    client_id = client_data.SK_ID_CURR
-    
-    #je récupère les données du client
-    client_row = new_clients_df[new_clients_df['SK_ID_CURR'] == client_id]
-    
-    if client_row.empty:
-        return {"error": "Client not found"}
-    
-    #je prépare les données pour le modèle (suppression des ID + scaler)
-    client_features = client_row.drop(columns=["SK_ID_CURR"]).values
-    client_scaled = scaler.transform(client_features)
-    
-    #calculer la prédiction
-    prediction = model.predict_proba(client_scaled)[:, 1][0]
-    
-    return {"SK_ID_CURR": client_id, "probability": prediction}
+    try:
+        # Récupérer le SK_ID_CURR
+        client_id = client_data.SK_ID_CURR
 
+        # Récupérer les données du client
+        client_row = new_clients_df[new_clients_df['SK_ID_CURR'] == client_id]
 
+        # Vérification si les données du client existent
+        if client_row.empty:
+            return {"error": "Client not found"}
 
-
-
-
+        # Préparer les données pour le modèle (supprimer SK_ID_CURR et appliquer le scaler)
+        client_features = client_row.drop(columns=["SK_ID_CURR"]).values
+        client_scaled = scaler.transform(client_features)
+        
+        # Effectuer la prédiction
+        prediction_proba = float(model.predict_proba(client_scaled)[:, 1][0])  # Convertir en float natif
+        prediction_label = int(prediction_proba > 0.45)  # Convertir en int natif
+        
+        return {
+            "SK_ID_CURR": int(client_id),  # Convertir en int natif
+            "probability": prediction_proba,
+            "prediction_label": prediction_label
+        }
+    except Exception as e:
+        return {"error": f"Internal Server Error: {str(e)}"}
