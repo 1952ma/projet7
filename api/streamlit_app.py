@@ -47,9 +47,9 @@ if st.button("Réaliser une prédiction"):
             
             # Afficher l'évaluation du risque
             if prediction_label == 1:
-                st.warning("Attention : Ce client est susceptible de faire défaut sur son crédit (label = 1).")
+                st.markdown("<span style='color:red;'>Attention : Ce client est susceptible de <b>faire défaut</b> sur son crédit (Classe = 1)</span>", unsafe_allow_html=True)
             else:
-                st.info("Ce client est susceptible de rembourser son crédit (label = 0).")
+                st.markdown("<span style='color:green;'>Ce client est susceptible de <b>rembourser</b> son crédit (Classe = 0)</span>", unsafe_allow_html=True)
     
     except requests.exceptions.RequestException as e:
         st.error(f"Erreur de connexion à l'API : {e}")
