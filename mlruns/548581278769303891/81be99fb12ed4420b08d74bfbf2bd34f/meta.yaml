@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/548581278769303891/81be99fb12ed4420b08d74bfbf2bd34f/artifacts
+end_time: 1731318387881
+entry_point_name: ''
+experiment_id: '548581278769303891'
+lifecycle_stage: active
+run_id: 81be99fb12ed4420b08d74bfbf2bd34f
+run_name: rogue-chimp-653
+run_uuid: 81be99fb12ed4420b08d74bfbf2bd34f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731318380759
+status: 3
+tags: []
+user_id: HP

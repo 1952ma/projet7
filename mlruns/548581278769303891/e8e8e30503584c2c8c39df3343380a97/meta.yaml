@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/548581278769303891/e8e8e30503584c2c8c39df3343380a97/artifacts
+end_time: 1731318428973
+entry_point_name: ''
+experiment_id: '548581278769303891'
+lifecycle_stage: active
+run_id: e8e8e30503584c2c8c39df3343380a97
+run_name: useful-crow-518
+run_uuid: e8e8e30503584c2c8c39df3343380a97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731318420821
+status: 3
+tags: []
+user_id: HP

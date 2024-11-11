@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/548581278769303891/a4ff8bc91ace4e78b8fd9f486986e80e/artifacts
+end_time: 1731318415680
+entry_point_name: ''
+experiment_id: '548581278769303891'
+lifecycle_stage: active
+run_id: a4ff8bc91ace4e78b8fd9f486986e80e
+run_name: intrigued-rook-720
+run_uuid: a4ff8bc91ace4e78b8fd9f486986e80e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731318406596
+status: 3
+tags: []
+user_id: HP
