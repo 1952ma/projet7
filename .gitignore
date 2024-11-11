@@ -6,17 +6,17 @@ venv/
 df_classification_binaire.csv
 df_clean_imputed.csv
 
-df_train.csv
+df_train_n.csv
 df_train_i.csv
 df_test_i.csv
-df_test.csv
+df_test_n.csv
 
-X_train_eval.csv
-y_train_eval.csv
-X_final.csv
-y_final.csv
-X_api.csv
-y_api.csv
+X_train_eval_n.csv
+y_train_eval_n.csv
+X_final_n.csv
+y_final_n.csv
+X_api_n.csv
+y_api_n.csv
 
 data_drift/application_test.csv
 data_drift/application_train.csv
@@ -27,7 +27,10 @@ api/application_test.csv
 feature_importances_t.csv
 
 
+dfs_n/
+dfs_i/
+resultats_s/
+api/df_nouveaux_clients.csv
 
-
-
+mlruns_s/
 

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/522829606599791631/67c661442b354a1ba52d93f42c55c54b/artifacts
+end_time: 1731311868358
+entry_point_name: ''
+experiment_id: '522829606599791631'
+lifecycle_stage: active
+run_id: 67c661442b354a1ba52d93f42c55c54b
+run_name: awesome-shoat-799
+run_uuid: 67c661442b354a1ba52d93f42c55c54b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731311861054
+status: 3
+tags: []
+user_id: HP
