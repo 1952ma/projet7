@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/132370224657337241/a7a4680148854051b9e0d844a314ee60/artifacts
+end_time: 1731347200770
+entry_point_name: ''
+experiment_id: '132370224657337241'
+lifecycle_stage: active
+run_id: a7a4680148854051b9e0d844a314ee60
+run_name: stately-moose-870
+run_uuid: a7a4680148854051b9e0d844a314ee60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731347194502
+status: 3
+tags: []
+user_id: HP

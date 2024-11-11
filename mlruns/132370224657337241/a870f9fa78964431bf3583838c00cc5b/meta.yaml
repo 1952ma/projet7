@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/132370224657337241/a870f9fa78964431bf3583838c00cc5b/artifacts
+end_time: 1731348183845
+entry_point_name: ''
+experiment_id: '132370224657337241'
+lifecycle_stage: active
+run_id: a870f9fa78964431bf3583838c00cc5b
+run_name: big-foal-74
+run_uuid: a870f9fa78964431bf3583838c00cc5b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731348183726
+status: 3
+tags: []
+user_id: HP

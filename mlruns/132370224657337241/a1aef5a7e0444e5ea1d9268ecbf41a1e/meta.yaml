@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/132370224657337241/a1aef5a7e0444e5ea1d9268ecbf41a1e/artifacts
+end_time: 1731347161439
+entry_point_name: ''
+experiment_id: '132370224657337241'
+lifecycle_stage: active
+run_id: a1aef5a7e0444e5ea1d9268ecbf41a1e
+run_name: whimsical-shoat-985
+run_uuid: a1aef5a7e0444e5ea1d9268ecbf41a1e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731347155113
+status: 3
+tags: []
+user_id: HP

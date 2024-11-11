@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/132370224657337241/1e98d4907f1348e8a1c28ded508e6aae/artifacts
+end_time: 1731347065723
+entry_point_name: ''
+experiment_id: '132370224657337241'
+lifecycle_stage: active
+run_id: 1e98d4907f1348e8a1c28ded508e6aae
+run_name: unique-fly-632
+run_uuid: 1e98d4907f1348e8a1c28ded508e6aae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731347059377
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/132370224657337241/12cfdda0485444459660ed376698303a/artifacts
+end_time: 1731345994026
+entry_point_name: ''
+experiment_id: '132370224657337241'
+lifecycle_stage: active
+run_id: 12cfdda0485444459660ed376698303a
+run_name: gregarious-pug-456
+run_uuid: 12cfdda0485444459660ed376698303a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731345987745
+status: 3
+tags: []
+user_id: HP

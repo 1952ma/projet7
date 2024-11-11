@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/132370224657337241/4522eba2d4d54b2d9e9f84260b95dc55/artifacts
+end_time: 1731346993422
+entry_point_name: ''
+experiment_id: '132370224657337241'
+lifecycle_stage: active
+run_id: 4522eba2d4d54b2d9e9f84260b95dc55
+run_name: persistent-shark-708
+run_uuid: 4522eba2d4d54b2d9e9f84260b95dc55
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731346986829
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/132370224657337241/f6ef72a3f2c8460d99e3d6baf8262bf5/artifacts
+end_time: 1731346344171
+entry_point_name: ''
+experiment_id: '132370224657337241'
+lifecycle_stage: active
+run_id: f6ef72a3f2c8460d99e3d6baf8262bf5
+run_name: worried-colt-239
+run_uuid: f6ef72a3f2c8460d99e3d6baf8262bf5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731346337761
+status: 3
+tags: []
+user_id: HP

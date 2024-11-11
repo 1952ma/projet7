@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/132370224657337241/da07d5279dfa4fe2ac19a1d0b4d1e686/artifacts
+end_time: 1731347201085
+entry_point_name: ''
+experiment_id: '132370224657337241'
+lifecycle_stage: active
+run_id: da07d5279dfa4fe2ac19a1d0b4d1e686
+run_name: big-wolf-898
+run_uuid: da07d5279dfa4fe2ac19a1d0b4d1e686
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731347201015
+status: 3
+tags: []
+user_id: HP

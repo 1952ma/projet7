@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/132370224657337241/b48e85a55143458fa503597fd92af123/artifacts
+end_time: 1731346074945
+entry_point_name: ''
+experiment_id: '132370224657337241'
+lifecycle_stage: active
+run_id: b48e85a55143458fa503597fd92af123
+run_name: funny-kit-444
+run_uuid: b48e85a55143458fa503597fd92af123
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731346068699
+status: 3
+tags: []
+user_id: HP

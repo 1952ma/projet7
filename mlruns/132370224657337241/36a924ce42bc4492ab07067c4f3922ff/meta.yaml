@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/132370224657337241/36a924ce42bc4492ab07067c4f3922ff/artifacts
+end_time: 1731346624098
+entry_point_name: ''
+experiment_id: '132370224657337241'
+lifecycle_stage: active
+run_id: 36a924ce42bc4492ab07067c4f3922ff
+run_name: crawling-hen-768
+run_uuid: 36a924ce42bc4492ab07067c4f3922ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731346617406
+status: 3
+tags: []
+user_id: HP

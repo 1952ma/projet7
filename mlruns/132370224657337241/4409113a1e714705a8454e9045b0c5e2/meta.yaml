@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/132370224657337241/4409113a1e714705a8454e9045b0c5e2/artifacts
+end_time: 1731347121937
+entry_point_name: ''
+experiment_id: '132370224657337241'
+lifecycle_stage: active
+run_id: 4409113a1e714705a8454e9045b0c5e2
+run_name: defiant-vole-323
+run_uuid: 4409113a1e714705a8454e9045b0c5e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731347115496
+status: 3
+tags: []
+user_id: HP

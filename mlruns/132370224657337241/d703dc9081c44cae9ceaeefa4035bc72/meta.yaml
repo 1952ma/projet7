@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/132370224657337241/d703dc9081c44cae9ceaeefa4035bc72/artifacts
+end_time: 1731346710912
+entry_point_name: ''
+experiment_id: '132370224657337241'
+lifecycle_stage: active
+run_id: d703dc9081c44cae9ceaeefa4035bc72
+run_name: inquisitive-doe-948
+run_uuid: d703dc9081c44cae9ceaeefa4035bc72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731346704498
+status: 3
+tags: []
+user_id: HP
