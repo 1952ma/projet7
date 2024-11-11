@@ -21,7 +21,7 @@ import os
 #charger le modèle et le scaler
 current_directory = os.path.dirname(os.path.realpath(__file__)) 
 model = joblib.load(os.path.join(current_directory, "lightgbm_model_f.joblib"))
-scaler = joblib.load(os.path.join(current_directory,  "scaler_lgbm.joblib"))
+#scaler = joblib.load(os.path.join(current_directory,  "scaler_lgbm.joblib"))
 
 
 #création de l'application FastAPI
@@ -32,7 +32,7 @@ class ClientData(BaseModel):
     SK_ID_CURR: int
 
 #chargement des données des nouveaux clients (CSV)
-new_clients_df = pd.read_csv(os.path.join(current_directory, 'df_clients.csv'))
+new_clients_df = pd.read_csv(os.path.join(current_directory, 'df_nouveaux_clients.csv'))
 
 
 # Route de redirection de '/' vers '/clients'
@@ -64,10 +64,11 @@ def predict(client_data: ClientData):
 
         # Préparer les données pour le modèle (supprimer SK_ID_CURR et appliquer le scaler)
         client_features = client_row.drop(columns=["SK_ID_CURR"]).values
-        client_scaled = scaler.transform(client_features)
+        #client_scaled = scaler.transform(client_features)
         
         # Effectuer la prédiction
-        prediction_proba = float(model.predict_proba(client_scaled)[:, 1][0])  # Convertir en float natif
+        #prediction_proba = float(model.predict_proba(client_scaled)[:, 1][0])  # Convertir en float natif
+        prediction_proba = float(model.predict_proba(client_features)[:, 1][0])  # Convertir en float natif
         prediction_label = int(prediction_proba > 0.45)  # Convertir en int natif
         
         return {
