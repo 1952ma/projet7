@@ -1,6 +1,7 @@
 artifact_location: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/132370224657337241
 creation_time: 1731345552419
 experiment_id: '132370224657337241'
-last_update_time: 1731345552419
+last_update_time: 1731761719146
 lifecycle_stage: active
-name: Random Forest Classifier avec SMOTE et Imputer dans un pipeline
+name: 'Random_Forest Classifier '
+tags: {}

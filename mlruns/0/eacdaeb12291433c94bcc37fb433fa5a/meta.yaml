@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/0/eacdaeb12291433c94bcc37fb433fa5a/artifacts
+end_time: 1731772714998
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eacdaeb12291433c94bcc37fb433fa5a
+run_name: sneaky-mule-68
+run_uuid: eacdaeb12291433c94bcc37fb433fa5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731772714915
+status: 3
+tags: []
+user_id: HP
