@@ -1,36 +1,34 @@
-name: Deploy to EC2
+name: Deploy to AWS EC2
 
 on:
   push:
-    branches: [ main ]         # Déclenche le workflow sur les push vers la branche main
-    paths:
-      - 'mep/**'               # Se déclenche uniquement si des fichiers dans le dossier mep sont modifiés
+    branches:
+      - main  # Changez la branche si nécessaire
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest     # Utilise une machine virtuelle Ubuntu GitHub Runner
-    
-    steps:
-    # Étape 1 : Configurer SSH
-    - name: Configure SSH
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS }}
-      run: |
-        mkdir -p ~/.ssh/
-        echo "$SSH_PRIVATE_KEY" > ~/.ssh/github-action
-        chmod 600 ~/.ssh/github-action
-        echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+    runs-on: ubuntu-latest  # Utilise un runner GitHub Actions basé sur Ubuntu
 
-    # Étape 2 : Se connecter et déployer sur l'instance EC2
-    - name: Deploy to EC2
-      env:
-        HOST: ec2-54-226-118-154.compute-1.amazonaws.com # Adresse IP publique de votre instance EC2
-        USERNAME: ec2-user                               # Utilisateur correct (vérifiez si c'est bien ec2-user)
-      run: |
-        ssh -i ~/.ssh/github-action $USERNAME@$HOST '
-          cd ~/mep                           # Accède au dossier de l'application
-          git pull                           # Met à jour le code depuis GitHub
-          docker compose down                # Arrête les conteneurs existants
-          docker compose up -d               # Redémarre les conteneurs en mode détaché
-        '
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4  # Récupère votre code source
+
+      - name: Deploy to EC2
+        uses: appleboy/scp-action@master  # Utilise l'action pour copier des fichiers via SCP
+        with:
+          host: ec2-52-90-53-194.compute-1.amazonaws.com  # Remplacez par l'adresse de votre instance EC2
+          username: ubuntu
+          key: ${{ secrets.EC2_SSH_KEY }}  # La clé privée SSH, à ajouter comme secret dans votre dépôt GitHub
+          source: "."  # Tous les fichiers du projet
+          target: "/home/ubuntu/project"  # Répertoire cible sur l'EC2
+
+      - name: Execute Remote Commands
+        uses: appleboy/ssh-action@master  # Utilise l'action pour exécuter des commandes SSH
+        with:
+          host: ec2-52-90-53-194.compute-1.amazonaws.com
+          username: ubuntu
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            cd /home/ubuntu/project
+            git pull origin main  # Mettre à jour avec la dernière version du dépôt
+            sudo systemctl restart votre_service  # Redémarre votre service ou application
