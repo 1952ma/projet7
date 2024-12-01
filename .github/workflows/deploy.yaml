@@ -31,7 +31,8 @@ jobs:
           script: |
             cd /home/ubuntu/projet7/mep  # Naviguer vers le répertoire contenant docker-compose.yml
             git pull origin main  # Mettre à jour avec la dernière version du dépôt
-            sudo docker-compose down  # Supprime les conteneurs existants
-            sudo docker-compose up --build -d  # Reconstruit et relance les conteneurs en arrière-plan
+            #sudo docker-compose down  # Supprime les conteneurs existants
+            #sudo docker-compose up --build -d  # Reconstruit et relance les conteneurs en arrière-plan
+            sudo docker-compose up
 
 
