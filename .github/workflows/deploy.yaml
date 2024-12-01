@@ -20,7 +20,7 @@ jobs:
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}  # La clé privée SSH, à ajouter comme secret dans votre dépôt GitHub
           source: "."  # Tous les fichiers du projet
-          target: "/home/ubuntu/project"  # Répertoire cible sur l'EC2
+          target: "/home/ubuntu/projet7"  # Répertoire cible sur l'EC2
 
       - name: Execute Remote Commands
         uses: appleboy/ssh-action@master  # Utilise l'action pour exécuter des commandes SSH
@@ -29,6 +29,9 @@ jobs:
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd /home/ubuntu/project
+            cd /home/ubuntu/projet7/mep  # Naviguer vers le répertoire contenant docker-compose.yml
             git pull origin main  # Mettre à jour avec la dernière version du dépôt
-            sudo systemctl restart votre_service  # Redémarre votre service ou application
+            sudo docker-compose down  # Supprime les conteneurs existants
+            sudo docker-compose up --build -d  # Reconstruit et relance les conteneurs en arrière-plan
+
+
