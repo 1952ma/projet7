@@ -11,27 +11,27 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4  # Récupère votre code source
+        uses: actions/checkout@v4  # Récupère le code source
 
       - name: Deploy to EC2
         uses: appleboy/scp-action@master  # Utilise l'action pour copier des fichiers via SCP
         with:
-          host: ec2-54-86-3-94.compute-1.amazonaws.com  # Remplacez par l'adresse de votre instance EC2
+          host: ec2-54-86-3-94.compute-1.amazonaws.com  # Remplacez par l'adresse de l'instance EC2
           username: ubuntu
-          key: ${{ secrets.EC2_SSH_KEY }}  # La clé privée SSH, à ajouter comme secret dans votre dépôt GitHub
+          key: ${{ secrets.EC2_SSH_KEY }}  # La clé privée SSH, à ajouter comme secret dans le dépôt GitHub
           source: "."  # Tous les fichiers du projet
           target: "/home/ubuntu/projet7"  # Répertoire cible sur l'EC2
 
       - name: Execute Remote Commands
         uses: appleboy/ssh-action@master  # Utilise l'action pour exécuter des commandes SSH
         with:
-          host: ec2-54-86-3-94.compute-1.amazonaws.com
+          host: ec2-54-86-3-94.compute-1.amazonaws.com # Remplacez par l'adresse de l'instance EC2
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd /home/ubuntu/projet7/mep  # Naviguer vers le répertoire contenant docker-compose.yml
             git pull origin main  # Mettre à jour avec la dernière version du dépôt
-            # Supprimer les conteneurs existants (si vous souhaitez vraiment les supprimer)
+            # Supprimer les conteneurs existants 
             #sudo docker-compose down  
             sudo docker-compose up --build -d  # Reconstruire et démarrer les conteneurs en arrière-plan
 
