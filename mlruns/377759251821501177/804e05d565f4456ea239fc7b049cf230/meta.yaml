@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/377759251821501177/804e05d565f4456ea239fc7b049cf230/artifacts
+end_time: 1733340820676
+entry_point_name: ''
+experiment_id: '377759251821501177'
+lifecycle_stage: active
+run_id: 804e05d565f4456ea239fc7b049cf230
+run_name: bittersweet-slug-386
+run_uuid: 804e05d565f4456ea239fc7b049cf230
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733340800827
+status: 3
+tags: []
+user_id: HP

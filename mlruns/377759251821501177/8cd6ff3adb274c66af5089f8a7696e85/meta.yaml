@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/377759251821501177/8cd6ff3adb274c66af5089f8a7696e85/artifacts
+end_time: 1733342576436
+entry_point_name: ''
+experiment_id: '377759251821501177'
+lifecycle_stage: active
+run_id: 8cd6ff3adb274c66af5089f8a7696e85
+run_name: whimsical-carp-439
+run_uuid: 8cd6ff3adb274c66af5089f8a7696e85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733342562339
+status: 3
+tags: []
+user_id: HP

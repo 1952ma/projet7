@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/377759251821501177/2d5efbf128b24b2391f45401e0019cad/artifacts
+end_time: 1733346931252
+entry_point_name: ''
+experiment_id: '377759251821501177'
+lifecycle_stage: active
+run_id: 2d5efbf128b24b2391f45401e0019cad
+run_name: skittish-hen-720
+run_uuid: 2d5efbf128b24b2391f45401e0019cad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733346903902
+status: 3
+tags: []
+user_id: HP

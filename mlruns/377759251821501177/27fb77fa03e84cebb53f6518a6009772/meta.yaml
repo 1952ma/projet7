@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/projet7/mlruns/377759251821501177/27fb77fa03e84cebb53f6518a6009772/artifacts
+end_time: 1733343104103
+entry_point_name: ''
+experiment_id: '377759251821501177'
+lifecycle_stage: active
+run_id: 27fb77fa03e84cebb53f6518a6009772
+run_name: clumsy-chimp-364
+run_uuid: 27fb77fa03e84cebb53f6518a6009772
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733343094017
+status: 3
+tags: []
+user_id: HP
