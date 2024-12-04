@@ -23,9 +23,9 @@ data_drift/application_train.csv
 
 mon_notebook_models.ipynb
 api/application_test.csv
-
+resultats/logistic_regression_pipeline_f.joblib
 feature_importances_t.csv
-
+resultats/random_forest_model_f.joblib
 dfs_n/
 dfs_i/
 resultats_s/
