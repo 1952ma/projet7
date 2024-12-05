@@ -1,0 +1,41 @@
+L'objectif du projet7, via l'API est de fournir un modèle de scoring de crédit précis et interprétable, capable de minimiser les pertes financières pour la banque, tout en s'adaptant aux évolutions des données clients au fil du temps.
+
+Les étapes clés de ce projet7 :
+
+1) Les modèles de classification sont entrainés :
+
+DummyClassifier : sert de point de référence pour comparer les performances des modèles.
+Logistic Regression: un modèle linéaire de machine learning supervisé utilisé pour résoudre des problèmes de classification binaire.
+Random Forest : c'est un modèle non-linéaire, c’est un ensemble d’arbres de décision, où chaque arbre est construit à partir d'un sous-ensemble aléatoire des données. 
+LightGBM : c'est un modèle basé sur des arbres de décision, optimisé pour la vitesse et la mémoire.
+
+2) La méthodologie d'entraînement :
+
+L'imputation des données : remplacement des valeurs manquantes par la moyenne pour Dummy Classifier et Random Forest, Light GBM le réalise en interne.
+La standardisation : la mise à l'échelle des données n'est pas necessaire pour ces modèles (arbres de décision) sauf la regression logistique.
+La validation croisée (StratifiedKFold) : elle garantit une répartition équilibrée des classes dans chaque pli, essentielle pour ces données déséquilibrées: 92% contre 8%.
+Le seuil de classification : un ajustement pour optimiser la gestion des faux positifs et faux négatifs.
+L'enregistrement avec MLflow : pour le suivi des expériences et des modèles pour faciliter la reproductibilité.
+
+3) Le traitement du déséquilibre des classes :
+
+L'utilisation des poids de classe pour compenser le déséquilibre des données, en augmentant l'importance de la classe minoritaires.
+
+4) L'optimisation et évaluation :
+
+La fonction coût métier : minimise les erreurs coûteuses pour l'entreprise (faux négatifs prioritaires).
+L'optimisation des hyperparamètres avec Optuna : pour trouver les meilleurs paramètres.
+Les métriques d'évaluation : l'utilisation de l’AUC, l'Accuracy et le coût métier pour évaluer les modèles.
+
+5) L'interprétabilité du modèle :
+
+Globale : l'importance des caractéristiques pour détecter d’éventuelles fuites de données.
+Locale : l'explication des prédictions individuelles avec SHAP.
+
+6) Data Drift:
+
+La détection des dérives de données pour maintenir les performances du modèle en production.
+
+7) La gestion du déploiement automatiser (CI/CD):
+
+Le déploiement continu (CI/CD) est essentiel pour automatiser la mise en production de l'API. Cela garantit que les nouvelles modifications du code sont automatiquement testées, validées et déployées, réduisant ainsi les erreurs humaines et accélérant les mises à jour.
