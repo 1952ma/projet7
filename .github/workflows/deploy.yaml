@@ -3,39 +3,38 @@ name: Deploy to AWS EC2
 on:
   push:
     branches:
-      - main  # Changez la branche si nécessaire
+      - main
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest  # Utilise un runner GitHub Actions basé sur Ubuntu
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4  # Récupère le code source
+        uses: actions/checkout@v4
 
       - name: Deploy to EC2
-        uses: appleboy/scp-action@master  # Utilise l'action pour copier des fichiers via SCP
+        uses: appleboy/scp-action@master
         with:
-          host: ec2-98-84-119-163.compute-1.amazonaws.com  # Remplacez par l'adresse de l'instance EC2
+          host: ec2-98-84-119-163.compute-1.amazonaws.com
           username: ubuntu
-          key: ${{ secrets.EC2_SSH_KEY }}  # La clé privée SSH, à ajouter comme secret dans le dépôt GitHub
+          key: ${{ secrets.EC2_SSH_KEY }}
           source: "."  # Tous les fichiers du projet
-          target: "/home/ubuntu/projet7"  # Répertoire cible sur l'EC2
+          target: "/home/ubuntu/projet7"
 
       - name: Execute Remote Commands
-        uses: appleboy/ssh-action@master  # Utilise l'action pour exécuter des commandes SSH
+        uses: appleboy/ssh-action@master
         with:
-          host: ec2-98-84-119-163.compute-1.amazonaws.com # Remplacez par l'adresse de l'instance EC2
+          host: ec2-98-84-119-163.compute-1.amazonaws.com
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd /home/ubuntu/projet7/mep  # Naviguer vers le répertoire contenant docker-compose.yml
-            git pull origin main  # Mettre à jour avec la dernière version du dépôt
-            sudo docker-compose up
+            cd /home/ubuntu/projet7/mep
+            git fetch origin main
+            git reset --hard origin/main
+            sudo docker-compose down  # Supprime les conteneurs existants
+            sudo docker-compose up --build -d  # Reconstruit et démarre en arrière-plan
 
-            # Supprimer les conteneurs existants 
-            #sudo docker-compose down  
-            #sudo docker-compose up --build -d  # Reconstruire et démarrer les conteneurs en arrière-plan
             
 
 
