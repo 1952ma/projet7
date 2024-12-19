@@ -16,7 +16,7 @@ services:
     depends_on:
       - api
     environment:
-      - API_URL=http://api:8000  # Adresse de l'API pour la communication interne dans le réseau Docker
+      - API_URL=http://api:8000
     restart: unless-stopped
 
 

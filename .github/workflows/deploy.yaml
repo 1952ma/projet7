@@ -16,7 +16,7 @@ jobs:
       - name: Deploy to EC2
         uses: appleboy/scp-action@master
         with:
-          host: ec2-98-84-119-163.compute-1.amazonaws.com
+          host: ec2-98-84-119-163.compute-1.amazonaws.com # a changer à chaque connection
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           source: "."  # Tous les fichiers du projet
@@ -25,7 +25,7 @@ jobs:
       - name: Execute Remote Commands
         uses: appleboy/ssh-action@master
         with:
-          host: ec2-98-84-119-163.compute-1.amazonaws.com
+          host: ec2-98-84-119-163.compute-1.amazonaws.com # a changer à chaque connection
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
